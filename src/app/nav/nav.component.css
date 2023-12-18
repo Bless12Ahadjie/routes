@@ -1,0 +1,48 @@
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    max-width:75rem;
+    height:3rem;
+    padding: 0.4rem 4rem;
+}
+.logo{
+    width: 106px;
+    height: 28px;
+    flex-shrink: 0;
+    margin-right: 102px;
+}
+.list{
+    list-style: none;
+    display: flex;
+}
+.list li{
+    color: var(--Black, #242A31);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-right: 26px;
+}
+.list li:last-child{
+    margin-right: 0;
+}
+.list li a{
+    text-decoration: none;
+    color: var(--Black, #242A31) ;
+}
+.btn{
+    display: flex;
+    padding: 6px 16px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 46px;
+    font-weight: 600;
+    background: #FABD03;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border: solid #FABD03;
+}
